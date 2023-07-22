@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Ruda', sans-serif;
+    font-size: 16px;
+    color: #252525;
+}
+
+.main-content {
+    background-image: url('../F2-Contest-2-July/banner.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: #FFF;
+}
+
+.content-text {
+    width: 440px;
+}
+
+.content-text h1 {
+    font-family: Poppins;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.trending-now {
+    color: #DC582A;
+}
+
+.btn-all {
+    background: #EAAA00;
+    color: #FFF;
+}
+.btn-Veg {
+    background: #C4D600;
+    color: #FFF;
+}
+.btn-Non {
+    background: #DC582A;
+    color: #FFF;
+}   

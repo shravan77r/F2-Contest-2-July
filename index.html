@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cookpal</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ruda&display=swap" rel="stylesheet">
+  <script src="main.js"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+    <a class="navbar-brand ms-5" href="#"><img src="logo.png" height="50" alt="logo"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="#about">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#menu">Explore</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#blogs">Help</a>
+        </li>
+      </ul>
+      <img src="profile.png" alt="Profile Image" class="rounded-circle ml-2" style="width: 40px; height: 40px;">
+    </div>
+  </nav>
+  <section class="main-content">
+    <div class="content-text ms-5">
+      <h6 class="trending-now">Trending now</h6>
+      <h1 class="display-3">Mike’s famous salad with cheese</h1>
+      <p>By John Mike</p>
+    </div>
+  </section>
+  <section class="py-4" id="search">
+    <div class="container">
+      <h4 class="mb-3">Search For Recipes</h2>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="input-group mb-3">
+              <input class="form-control" type="search" placeholder="Search For Recipes" aria-describedby="basic-addon2"
+                id="txt_search">
+              <span class="input-group-text" id="basic-addon2"><i class="fa fa-search"></i></span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <button type="button" class="btn btn-all">All Recipes > </button>
+            <button type="button" class="btn btn-Veg">Veg Recipes Only > </button>
+            <button type="button" class="btn btn-Non">Non Veg Recipes Only > </button>
+          </div>
+        </div>
+    </div>
+  </section>
+  <section class="py-4" id="grid">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-2">
+          <h3>Filters</h3>
+          <h5>Ratings</h5>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="above4">
+            <label class="form-check-label" for="above4">
+              4 and above
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="below4">
+            <label class="form-check-label" for="below4">
+              below 4
+            </label>
+          </div>
+        </div>
+        <div class="col-md-10" id="products">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="menu-item d-flex">
+                <img src="https://source.unsplash.com/random?chicken" alt="productimg1">
+                <div class="menu-item-details">
+                  <h3 class="mt-3 mb-2">Chicken Grill</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ac placerat dui.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+
+</html>
